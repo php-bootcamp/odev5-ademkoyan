@@ -3,15 +3,11 @@
 include("database.php");
 ?>
 <br /><br />
-<div>
 
     <form method="post">
-        <div>
             <input type="file" name="jsonFile"><br />
             <input type="submit" name="submit" value="Import" name="Dosyayı Aktar">
-        </div>
     </form>
-</div>
 <?php
 if(isset($_POST['submit'])) {
 
